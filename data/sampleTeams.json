@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Red Bull Racing",
+      "color": "redbull",
+      "countryOrigin": "Austria",
+      "points": 623,
+      "championships": 6,
+      "wins": 18,
+      "podiums": 30,
+      "logoUrl": "https://www.formula1.com/content/dam/fom-website/teams/2023/red-bull-racing-logo.png.transform/2col/image.png",
+      "drivers": [1, 11],
+      "statistics": {
+        "constructorsPosition": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        "pointsPerRace": [43, 38, 31, 44, 36, 42, 30, 25, 35, 44, 15, 30, 24, 14, 38, 25, 8, 18, 32, 28]
+      }
+    }]

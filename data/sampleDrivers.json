@@ -1,0 +1,30 @@
+[
+    {
+      "id": "hamilton",
+      "name": "Lewis Hamilton",
+      "team": "Mercedes",
+      "wins": 103,
+      "points": 4400,
+      "podiums": 195,
+      "nationality": "British"
+    },
+    {
+      "id": "verstappen",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "wins": 60,
+      "points": 2700,
+      "podiums": 90,
+      "nationality": "Dutch"
+    },
+    {
+      "id": "leclerc",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "wins": 5,
+      "points": 1100,
+      "podiums": 30,
+      "nationality": "Monegasque"
+    }
+  ]
+  
