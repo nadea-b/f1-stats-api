@@ -3,6 +3,7 @@ const cors = require('cors');
 const driverRoutes = require('./routes/drivers');
 const teamRoutes = require('./routes/teams');
 const teams = require('./data/sampleTeams.json');
+const tokenRoutes = require("./routes/token");
 
 const app = express();
 
@@ -11,6 +12,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/api/drivers', driverRoutes);
 app.use('/api/teams', teamRoutes);
+app.use("/token", tokenRoutes);
 
 app.use((req, res, next) => {
     console.log(`Received request: ${req.method} ${req.url}`);
