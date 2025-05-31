@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const Team = require('../models/Team');
-const authenticateToken = require('../middleware/authenticateToken');
-const authorize = require('../middleware/authorize');
+const authenticateToken = require('../routes/token');
+const authorize = require('../middleware/auth');
 
 // CREATE
 router.post('/', authenticateToken, authorize(['ADMIN', 'WRITER']), async (req, res) => {
