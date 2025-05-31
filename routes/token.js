@@ -10,7 +10,7 @@ router.post("/", (req, res) => {
   if (!role) return res.status(400).json({ message: "Role is required" });
 
   const token = jwt.sign(
-    { role }, // You could also add permissions instead
+    { role }, 
     process.env.JWT_SECRET,
     { expiresIn: process.env.JWT_EXPIRES_IN }
   );
@@ -19,3 +19,6 @@ router.post("/", (req, res) => {
 });
 
 module.exports = router;
+
+//http://localhost:5000/token POST
+//{ "role": "ADMIN" }
